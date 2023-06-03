@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+ 
 }
 
 .logo {
@@ -50,7 +51,9 @@
   justify-content: space-between;
 }
 .container{
-  padding-block: 1rem;
+
+  padding-block:2rem ;
+  padding-inline: 1.5rem;
   font-size: 1.5rem;
   width: 100%;
   max-width: 40rem;
@@ -64,5 +67,10 @@
 }
 
 input{
-  font-size: 1.5rem;
+  font-size: 1em;
+  text-align: center;
+  max-width:15rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
 }
