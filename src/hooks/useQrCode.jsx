@@ -19,8 +19,9 @@ const useQrCode = () => {
       
       
     };
+    const clearInput=()=>data&&setData('')
   
-  return {data,isCopied, qrCodeRef, handleInputChange,handleCopyClick}
+  return {data,isCopied, qrCodeRef, handleInputChange,handleCopyClick,clearInput}
 }
 
 const QrState =()=>(useQrCode())
