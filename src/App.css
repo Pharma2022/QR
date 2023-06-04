@@ -4,10 +4,12 @@
   margin: 0;
 }
 #root {
-  max-width: 1280px;
+ 
   margin: 0 auto;
-  padding: 2rem;
+
   text-align: center;
+  display: flex;
+  max-width: 100vw;
  
 }
 
@@ -55,16 +57,14 @@
   display:flex;
   justify-content: space-between;
 }
-.container{
-
-  padding-block:2rem ;
- 
+.container{ 
   font-size: 1.5rem;
   width: 100%;
   gap: 1.5rem;
 }
 .container>h1{
   font-size: 2rem;
+  margin-bottom: 4rem;
 }
 .container>*{
   margin-inline:auto;
@@ -81,11 +81,11 @@ input{
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
 }
-@media (min-width:600px) {
+@media (min-width:768px) {
   .container{
 
     padding-inline: 1.5rem;
-    max-width: 40rem;
+    max-width: 35rem;
   }
   input,button{
    max-width: 10rem;
