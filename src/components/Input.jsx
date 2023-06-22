@@ -7,7 +7,7 @@ const Input = () => {
     return (
         <Fragment>
             <label htmlFor="data">Type your text</label>
-            <input type="text" name='data' value={data} onChange={handleInputChange}  onClick={clearInput}/>
+            <input type="text" name='data' value={data} onChange={handleInputChange} placeholder='enter text...' onClick={clearInput}/>
         </Fragment>
   )
 }
